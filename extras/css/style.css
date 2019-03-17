@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+
+/******************************
+
+[INDICE]
+
+1. Configuracoes de Cores e Outros
+2. Botões e Formularios
+3. Navbar
+4. Icon Footer
+
+
+******************************/
+
+/*********************************
+1. CONFIGURACOES DE CORES E OUTROS
+*********************************/
+::selection{
+	background: #32c69a;
+	color: #FFFFFF;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background:  #EFEFEF;
+}
+
+footer{
+	background: linear-gradient(to right, #69f0ae, #00e676 );
+	box-shadow: 0px -5px 45px 0px #A4A4A4;
+}
+
+.container{
+	background: #ffff;
+	box-shadow: 0px 5px 46px #A4A4A4;
+}
+
+.home_container{
+	position: relative;
+	bottom: 79px;
+	left: 0;
+	width: 100%;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.titulo{
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: #FFFFFF;
+	background: #00796b;
+	padding-left: 17px;
+	padding-right: 19px;
+}
+
+.alert-info{
+	border-radius: 0px;
+	background: #e8f5e9;
+}
+
+/*********************************
+2. BOTÕES E FORMULARIOS
+*********************************/
+
+.formulario{
+	border-radius: none;
+	width: 100%;
+	height: 40px;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	padding-left: 15px;
+	margin-bottom: 12px;
+	color: #6a6d72;
+	font-weight: 500;
+}
+
+.formulario::-webkit-input-placeholder{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #1b5e20 !important;
+}
+
+.botao{
+	background: #00796b;
+	color: #ffff;
+	border: 0;
+	height: 40px;
+	width: 95px;
+	text-transform: uppercase;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.botao:hover{
+	background: #009688;
+	width: 105px;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+
+.btn-outline-success{
+	border-radius: 0px;
+}
+
+label{
+	font-size: 12px;
+	color: #00796b;
+	font-weight: 600;
+	margin-bottom: -17px;
+}
+
+/*********************************
+3. NAVBAR
+*********************************/
+.navbar{
+	background: #69f0ae;
+	padding: 17px;
+}
+
+
+.navbar a{
+	color: #004d40;
+}
+
+.navbar button {
+	border: none;
+}
+
+.navbar-collapse a{
+	color: #004d40;
+	text-transform: uppercase;
+	font-size: 13.5px;
+	padding: 12px;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+
+.navbar-collapse a:hover{
+	color: #888888;
+}
+
+.dropdown-menu a{
+	color: #00796b;
+}
+
+.dropdown-menu a:hover{
+	background: #ffff;
+}
+
+.form-control{
+	border-radius: 0px;
+}
+
+/*********************************
+3. ICON FOOTER
+*********************************/
+.img-social{
+	width: 30px;
+	height: 30px;
+}
+
+.img-social:hover{
+	box-shadow: 0px 3px 0px 0px #00796b;
+}
