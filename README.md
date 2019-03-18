@@ -20,3 +20,4 @@ No menu superior tem opções:
  
  Para a opção de listar foi utilizado um Plug Jquery: DataTables.
  Para gerar PDF foi utilizado: Mpdf
+O banco de dados encontra-se na pasta "extras"
