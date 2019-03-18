@@ -57,7 +57,7 @@ class Funcoes extends CI_Controller {
 			}
 		}if(isset($_POST['editar_curso'])){
 			$id = strip_tags(trim($_POST['id']));
-			$curso['nome'] =  strip_tags(trim($_POST['nome']));
+			$curso['nome_curso'] =  strip_tags(trim($_POST['nome']));
 			$curso['criacao'] =  strip_tags(trim($_POST['criacao']));
 			$curso['id_professor'] =  strip_tags(trim($_POST['id_professor']));
 			$this->db->where('id_curso',$id);
